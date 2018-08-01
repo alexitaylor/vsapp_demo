@@ -1,0 +1,19 @@
+{
+  "name": "vsapp_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexitaylor/vsapp_demo.git"
+  },
+  "author": "alexi taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexitaylor/vsapp_demo/issues"
+  },
+  "homepage": "https://github.com/alexitaylor/vsapp_demo#readme"
+}
