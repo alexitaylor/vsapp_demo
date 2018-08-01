@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Side-nav main main main" "Side-nav main main main" "Side-nav main main main";
+}
+
+.main {
+  grid-area: main;
+}
+
+.Side-nav {
+  grid-area: Side-nav;
+  position: fixed;
+}
+
+.Side-nav a {
+  padding: 10px 25px;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}

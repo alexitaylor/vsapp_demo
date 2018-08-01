@@ -1,0 +1,158 @@
+
+.bs4 .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bs4 .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.bs4 .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.bs4 .form-control::-webkit-input-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.bs4 .form-control::-moz-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.bs4 .form-control:-ms-input-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.bs4 .form-control::-ms-input-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.bs4 .form-control::placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.bs4 .form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.bs4 select.form-control:not([size]):not([multiple]) {
+    height: calc(4.25rem + 2px);
+}
+
+.bs4 select.form-control:focus::-ms-value {
+    color: #495057;
+    background-color: #fff;
+}
+
+.bs4 .input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.bs4 .input-group > .form-control,
+.bs4 .input-group > .custom-select {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.bs4 .input-group > .form-control:focus,
+.bs4 .input-group > .custom-select:focus {
+    z-index: 3;
+}
+
+.bs4 .input-group > .form-control + .form-control,
+.bs4 .input-group > .form-control + .custom-select,
+.bs4 .input-group > .custom-select + .form-control,
+.bs4 .input-group > .custom-select + .custom-select {
+    margin-left: -1px;
+}
+
+.bs4 .input-group > .form-control:not(:last-child),
+.bs4 .input-group > .custom-select:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.bs4 .input-group > .form-control:not(:first-child),
+.bs4 .input-group > .custom-select:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bs4 .custom-select {
+    display: inline-block;
+    height: calc(4.25rem + 2px);
+    width: 100%;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 2rem;
+}
+
+.bs4 .custom-select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(128, 189, 255, 0.5);
+}
+
+.bs4 .custom-select:focus::-ms-value {
+    color: #495057;
+    background-color: #fff;
+}
+
+.bs4 .custom-select[multiple], .custom-select[size]:not([size="1"]) {
+    height: auto;
+//padding-right: 0.75rem;
+    background-image: none;
+}
+
+.bs4 .custom-select:disabled {
+    color: #6c757d;
+    background-color: #e9ecef;
+}
+
+.bs4 .custom-select::-ms-expand {
+    opacity: 0;
+}
+
