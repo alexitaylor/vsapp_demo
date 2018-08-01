@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/alexitaylor/vsapp_demo/issues"
   },
-  "homepage": "https://github.com/alexitaylor/vsapp_demo#readme"
+  "homepage": "https://github.com/alexitaylor/vsapp_demo#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "parcel": "^1.9.7"
+  },
+  "dependencies": {
+    "assets": "^3.0.0",
+    "datatables.net": "^1.10.19",
+    "datatables.net-bs4": "^1.10.19",
+    "datatables.net-responsive": "^2.2.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "plugins": "^0.4.2",
+    "popper.js": "^1.14.3"
+  }
 }

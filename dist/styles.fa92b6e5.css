@@ -1,0 +1,292 @@
+.default-bg {
+    background: #66615b;
+}
+
+.primary-bg {
+    background: #51cbce;
+}
+
+.info-bg {
+    background: #51bcda;
+}
+
+.success-bg {
+    background: #6bd098;
+}
+
+.warning-bg {
+    background: #fbc658;
+}
+
+.danger-bg {
+    background: #ef8157;
+}
+
+.color-span-text {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.form-container {
+    max-width: calc(100% - 5%);
+    margin: auto;
+}
+
+.form-animation {
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.125, 0.5, 0.125, 1);
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    perspective: 1000px;
+    animation-name: fade-in-up;
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.at-form form {
+    position: relative;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.at-form label {
+    position: relative;
+    clear: both;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(32, 45, 74, 0.2);
+    border-radius: 4px;
+}
+
+.at-form span {
+    position: absolute;
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px 30px 0;
+    font-weight: 700;
+    color: #202d4a;
+    opacity: 0;
+}
+
+.at-form input {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 20px 30px 20px;
+    width: 100%;
+    background: 0 0;
+    border: 0;
+}
+
+.at-form input:focus-within {
+    padding: 50px 30px 20px;
+    transition: padding 0.7s linear;
+}
+
+.at-form label:focus-within > span {
+    opacity: 1;
+    transition: opacity 0.8s ease-in;
+}
+
+.at-form label:focus-within {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transform: translate3d(0, -1px, 0);
+}
+
+.at-form .active-input {
+    padding: 50px 30px 20px;
+}
+
+.at-form .active-span {
+    opacity: 1;
+}
+
+.at-form ::-webkit-input-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.at-form ::-moz-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.at-form ::-ms-input-placeholder {
+    color: #c0c5cb;
+    opacity: 1;
+}
+
+.at-form textarea:focus,
+.at-form input:focus {
+    outline: none;
+}
+
+.hero-radio-checkbox-form {
+
+    label.btn {
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    label.btn span {
+        font-size: 3em;
+        padding-left: 15px;
+    }
+
+    label input[type="radio"] ~ svg.fa-circle{
+        color: #495057;
+        display: inline;
+    }
+    label input[type="radio"] ~ svg.fa-check-circle{
+        display: none;
+    }
+    label input[type="radio"]:checked ~ svg.fa-circle{
+        display: none;
+    }
+    label input[type="radio"]:checked ~ svg.fa-check-circle{
+        color: #7AA3CC;
+        display: inline;
+    }
+    label:hover input[type="radio"] ~ svg.fa {
+        color: #7AA3CC;
+    }
+
+    label input[type="checkbox"] ~ svg.fa-square{
+        color: #495057;
+        display: inline;
+    }
+    label input[type="checkbox"] ~ svg.fa-check-square{
+        display: none;
+    }
+    label input[type="checkbox"]:checked ~ svg.fa-square{
+        display: none;
+    }
+    label input[type="checkbox"]:checked ~ svg.fa-check-square{
+        color: #7AA3CC;
+        display: inline;
+    }
+    label:hover input[type="checkbox"] ~ svg.fa {
+        color: #7AA3CC;
+    }
+
+    div[data-toggle="buttons"] label.active{
+        color: #7AA3CC;
+    }
+
+    div[data-toggle="buttons"] label {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 2em;
+        text-align: left;
+        white-space: nowrap;
+        vertical-align: top;
+        cursor: pointer;
+        border: 0px solid #495057;
+        border-radius: 3px;
+        color: #495057;
+        user-select: none;
+    }
+
+    div[data-toggle="buttons"] label:hover {
+        color: #7AA3CC;
+    }
+
+    div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    input[type="radio"]:checked {
+        visibility:hidden;
+    }
+
+    input[type="radio"] {
+        visibility:hidden;
+    }
+
+    input[type="checkbox"]:checked {
+        visibility:hidden;
+    }
+
+    input[type="checkbox"] {
+        visibility:hidden;
+    }
+
+    .active {
+        color: #7AA3CC;
+    }
+
+    .btn {
+        background-color: transparent;
+    }
+    .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show > .btn.dropdown-toggle, .show > .btn.dropdown-toggle:focus, .show > .btn.dropdown-toggle:hover, .navbar .navbar-nav > a.btn:hover, .navbar .navbar-nav > a.btn:focus, .navbar .navbar-nav > a.btn:active, .navbar .navbar-nav > a.btn.active, .navbar .navbar-nav > a.btn:active:focus, .navbar .navbar-nav > a.btn:active:hover, .navbar .navbar-nav > a.btn.active:focus, .navbar .navbar-nav > a.btn.active:hover, .show > .navbar .navbar-nav > a.btn.dropdown-toggle, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:focus, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
+        background-color: transparent !important;
+        color: #7AA3CC !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+
+.at-label-lg {
+    font-size: 2rem !important;
+    color: #2c2c2c !important;
+}
+
+.at-custom-select {
+    display: inline-block;
+    height: calc(4.25rem + 2px);
+    width: 100%;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid rgba(32, 45, 74, 0.2);
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 2rem;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}

@@ -9,7 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/paper-dashboard.min.css">
+  <link rel="stylesheet" href="assets/scss/paper-dashboard.scss">
+  <!--<link rel="stylesheet" href="assets/css/paper-dashboard.min.css">-->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/dob-selector.css">
   <link rel="stylesheet" href="assets/css/shadows.css">
@@ -825,7 +826,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">Basic example</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('basic')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('basic')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -833,7 +834,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">A title with a text under</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('title-and-text')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('title-and-text')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -841,7 +842,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">A success message</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('success-message')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('success-message')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -849,7 +850,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">Custom HTML description</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('custom-html')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('custom-html')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -859,7 +860,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">A warning message, with a function attached to the "Confirm" Button...</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('warning-message-and-confirmation')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('warning-message-and-confirmation')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -867,7 +868,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">...and by passing a parameter, you can execute something else for "Cancel"</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('warning-message-and-cancel')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('warning-message-and-cancel')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -875,7 +876,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">A message with auto close timer set to 2 seconds</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('auto-close')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('auto-close')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -883,7 +884,7 @@
                       <div class="card z-depth-1">
                         <div class="card-body text-center">
                           <p class="card-text">Modal window with input field</p>
-                          <button class="btn btn-outline-default btn-round" onclick="demo.showSwal('input-field')">Try me!</button>
+                          <button class="btn btn-outline-default btn-round" onclick="swal('input-field')">Try me!</button>
                         </div>
                       </div>
                     </div>
@@ -1007,60 +1008,12 @@
   </div>
 </div>
 <!--   Core JS Files   -->
-<script src="js/core/jquery.min.js"></script>
-<script src="js/core/popper.min.js"></script>
-<script src="js/core/bootstrap.min.js"></script>
-<!-- <script src="js/plugins/perfect-scrollbar.jquery.min.js"></script> -->
-<script src="js/plugins/moment.min.js"></script>
-<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="js/plugins/bootstrap-switch.js"></script>
-<!--  Plugin for Sweet Alert -->
-<script src="js/plugins/sweetalert2.min.js"></script>
-<!-- Forms Validations Plugin -->
-<script src="js/plugins/jquery.validate.min.js"></script>
-<!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
-<script src="js/plugins/jquery.bootstrap-wizard.js"></script>
-<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-<script src="js/plugins/bootstrap-selectpicker.js"></script>
-<!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-<script src="js/plugins/bootstrap-datetimepicker.js"></script>
-<!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
-<script src="js/plugins/jquery.dataTables.min.js"></script>
-<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-<script src="js/plugins/bootstrap-tagsinput.js"></script>
-<!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-<script src="js/plugins/jasny-bootstrap.min.js"></script>
-<!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
-<script src="js/plugins/jquery-jvectormap.js"></script>
-<!--  Plugin for the Bootstrap Table -->
-<script src="js/plugins/nouislider.min.js"></script>
-<!-- Chart JS -->
-<script src="js/plugins/chartjs.min.js"></script>
-<!--  Notifications Plugin    -->
-<script src="js/plugins/bootstrap-notify.js"></script>
-<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
-<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-<script src="js/demo.js"></script>
-<script>
-  $(document).ready(function() {
-    // initialise Datetimepicker and Sliders
-    demo.initDateTimePicker();
-    if ($('.slider').length != 0) {
-      demo.initSliders();
-    }
-  });
-
-  $('#first-name').focus(function() {
-    $(this).addClass('active-input');
-    $('#first-name-span').addClass('active-span');
-  });
-
-  $('#last-name').focus(function() {
-    $(this).addClass('active-input');
-    $('#last-name-span').addClass('active-span');
-  });
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<!-- Plugin for Sweet Alert -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.9/sweetalert2.all.min.js"></script>
+<script src="./assets/js/index.js"></script>
 </body>
 
 </html>
