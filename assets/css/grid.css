@@ -1,18 +1,40 @@
 .grid-container {
   display: grid;
   height: 100%;
-  grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "Side-nav main main main" "Side-nav main main main" "Side-nav main main main";
+  grid-template-columns: 25vw 75vw;
+  grid-template-areas: "Side-nav main";
 }
 
-.main {
+.content {
   grid-area: main;
 }
 
 .Side-nav {
   grid-area: Side-nav;
-  position: fixed;
+}
+
+@media screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 100vw;
+    grid-template-areas:
+            "Side-nav"
+            "main";
+  }
+  .Side-nav {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Side-nav {
+    grid-area: Side-nav;
+    float: left;
+    margin: 0;
+    height: 100vh;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+  }
 }
 
 .Side-nav a {
