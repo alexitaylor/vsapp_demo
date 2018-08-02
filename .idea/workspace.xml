@@ -2,82 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dc0282-b82e-42c5-84a9-c5f6e264c369" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.cache/138dcd732bf5d0f15d63094d1bb05ba3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/21c0e983574208a232d93bb6108451e1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/298a87858831b461b93f51fc43946251.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/2c01da035d7e43c690961c47f460ceae.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/39ced2057eeb06315e2c99282adbdcf4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/57d3786350385d7db2260cc121e543d6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/64f3a8b9d0b1c0dac5b4e99b50a71b3d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/65804660c2e777e9d87192cb24caae4f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/676a1b7519bd3d1a8bf06b8d3dcb9e91.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/6a2dafc5d6995e855f0947720d4e0740.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/702651a43a21bb4128860e37f2abe6b8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/7284b58bbe2199ddc116ec931eb793c4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/77d07bd5e846a6b538f2f03a8dcfb031.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/7aabd47270897cbeb0049bf2609465e6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/83e9f144dd4bbf9be64fdc1449f68f21.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/8797ada5344c02eacb074c1fbc9a6ba9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/88b06d36f4f179a848e06ee2098d7784.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/96d7560a1793104c088dd9d93df371de.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/a0c428a6d071eb0bce0d6dfe293b7f16.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/a2b9d1cda4de705223574f51f15e8e11.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/b83e40e89362c7f98671a43f1ee4dd2a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/bd5c6c206f699f75a418d69013b5a6da.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/c28c4fa6a05425a6a20c6cd9f3d7136c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/c949cd2ba43009df5ee8953d1b7189ca.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/d84ee4a82a0ff786400f848e269bce28.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/da52e6c61e7b9fd120711b8352dca5ef.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/dd62eb8a84b6d70226ae060fc8b32d00.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/de25f3c9d67ca08cdbb64b896af79377.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/de9986be933b38a7d1779882c3b327b0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/e1cee12fd8341e47f59db1434307d830.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/e314be7a220fe6dcb23126b510399813.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/e786a927f89754dab41d20e6a77b45b7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/ea23033950518339153acd8f4dfcc89a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/f7e4eda2525bbcbb33016aabd4c7ef13.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.cache/fad99adfdaa3290033ca2b19abf3e550.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.361339e6.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.482b759e.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.80e133d0.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.8dda236c.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -121,18 +48,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paper-dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/paper-dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="83" column="33" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="33" />
-              <folding>
-                <marker date="1533167317000" expanded="true" signature="6363:6404" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -200,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Toggle Button</find>
       <find>bootstrap-switch</find>
       <find>swith</find>
       <find>switch</find>
@@ -230,6 +154,7 @@
       <find>badges</find>
       <find>select</find>
       <find>sha</find>
+      <find>hapi</find>
     </findStrings>
     <replaceStrings>
       <replace>card z-depth-1&quot;</replace>
@@ -238,8 +163,8 @@
       <replace>./assets/js/</replace>
       <replace>../../</replace>
       <replace>./</replace>
-      <replace>../fonts/</replace>
       <replace>swal</replace>
+      <replace>../fonts/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -254,7 +179,6 @@
         <option value="$PROJECT_DIR$/css/dob-selector.css" />
         <option value="$PROJECT_DIR$/css/shadows.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/js/demo.js" />
         <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" />
         <option value="$PROJECT_DIR$/assets/css/nucleo-outline.css" />
@@ -265,6 +189,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -355,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11042000" />
+    <option name="totallyTimeSpent" value="11513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -601,14 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/plugins/nouislider.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -786,8 +703,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding />
         </state>
       </provider>
