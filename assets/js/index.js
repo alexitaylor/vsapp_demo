@@ -34,6 +34,7 @@ require('./plugins/bootstrap-notify');
 require('./paper-dashboard.js');
 // Paper Dashboard DEMO methods, don't include it in your project!
 var demo = require('./demo');
+window.demo = demo;
 
 $(document).ready(function() {
   // initialise Datetimepicker and Sliders
