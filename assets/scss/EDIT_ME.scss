@@ -1,0 +1,112 @@
+/* README: This file contains our variables. It's where we store our information that
+will be reused throughout the other stylesheets. For example, our 6 main
+color variables are declared below. By declaring our color variables once in this
+file, we only need to change them in this file instead of multiple files.
+*/
+
+/*
+=============================
+=============================
+EDIT HERE:
+Default color
+=============================
+=============================
+*/
+
+$default-color:              #66615B !default;
+$default-bg:                 #66615B !default;
+$default-states-color:       #403D39 !default;
+
+$smoke-bg:                   #F5F5F5 !default;
+$pale-bg:                    #FFFCF5 !default;
+$medium-pale-bg:             #F1EAE0 !default;
+$default-body-bg:            #f4f3ef !default;
+
+/*
+=============================
+=============================
+EDIT HERE:
+Primary color
+=============================
+=============================
+*/
+
+$primary-color:              #51cbce !default;
+$primary-states-color:       darken($primary-color, 10%) !default;
+
+/*
+=============================
+=============================
+EDIT HERE:
+Success color
+=============================
+=============================
+*/
+
+$success-color:              #6bd098 !default;
+$success-states-color:       darken($success-color, 10%) !default;
+
+/*
+=============================
+=============================
+EDIT HERE:
+Info color
+=============================
+=============================
+*/
+
+$info-color:                 #51bcda !default;
+$info-states-color:          darken($info-color, 10%) !default;
+
+/*
+=============================
+=============================
+EDIT HERE:
+Warning color
+=============================
+=============================
+*/
+
+$warning-color:              #fbc658 !default;
+$warning-states-color:       darken($warning-color, 10%) !default;
+
+/*
+=============================
+=============================
+EDIT HERE:
+Danger color
+=============================
+=============================
+*/
+
+$danger-color:               #ef8157 !default;
+$danger-states-color:        darken($danger-color, 8%) !default;
+
+$link-disabled-color:        #666666 !default;
+
+$purple-color:               #c178c1 !default;
+$purple-states-color:        darken($purple-color, 8%) !default;
+
+$medium-pale-bg:             #F1EAE0 !default;
+
+$brown-color:                #dcb285 !default;
+$default-color-opacity:      rgba(182, 182, 182, .6) !default;
+$primary-color-opacity:      rgba(249, 99, 50, .3) !default;
+$success-color-opacity:      rgba(24, 206, 15, .3) !default;
+$info-color-opacity:         rgba(44, 168, 255, .3) !default;
+$warning-color-opacity:      rgba(255, 178, 54, .3) !default;
+$danger-color-opacity:       rgba(255, 54, 54, .3) !default;
+
+$new-blue:            #1DC7EA;
+$new-purple:          #9368E9;
+$new-red:             #FB404B;
+$new-green:           #87CB16;
+$new-orange:          #FFA534;
+$new-dark-blue:       #1F77D0;
+$new-black:           #5e5e5e;
+
+$orange-color:               #f96332 !default;
+$color-red-error: rgb(185, 74, 72) !default;
+$color-grey-arrow: rgba(204, 204, 204, 0.2) !default;
+
+$bg-nude:               #FFFCF5 !default;

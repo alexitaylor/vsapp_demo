@@ -1,5 +1,5 @@
 .color-span-text {
-    font-size: 1.5rem;
+    font-size: 1.25em;
     color: white;
 }
 
@@ -224,7 +224,7 @@
 /*}*/
 
 .at-label-lg {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     color: #2c2c2c !important;
 }
 

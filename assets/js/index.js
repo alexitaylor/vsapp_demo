@@ -1,5 +1,3 @@
-// import fonts from '../../fonts/*';
-//console.log('fonts', fonts);
 import '../fonts/nucleo-icons.eot';
 import '../fonts/nucleo-icons.ttf';
 import '../fonts/nucleo-icons.woff';
