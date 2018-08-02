@@ -103,7 +103,81 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"assets/js/core/popper.min.js":[function(require,module,exports) {
+})({"assets/fonts/nucleo-icons.eot":[function(require,module,exports) {
+module.exports = "/nucleo-icons.361339e6.eot";
+},{}],"assets/fonts/nucleo-icons.ttf":[function(require,module,exports) {
+module.exports = "/nucleo-icons.8dda236c.ttf";
+},{}],"assets/fonts/nucleo-icons.woff":[function(require,module,exports) {
+module.exports = "/nucleo-icons.80e133d0.woff";
+},{}],"assets/fonts/nucleo-icons.woff2":[function(require,module,exports) {
+module.exports = "/nucleo-icons.482b759e.woff2";
+},{}],"node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+  newLink.onload = function () {
+    link.remove();
+  };
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"node_modules/parcel/src/builtins/bundle-url.js"}],"assets/css/nucleo-outline.css":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./../fonts/nucleo-icons.eot":[["js.fd6fcb87.js","assets/js/index.js"],"js.fd6fcb87.map",["nucleo-icons.361339e6.eot","assets/fonts/nucleo-icons.eot"],["nucleo-icons.8dda236c.ttf","assets/fonts/nucleo-icons.ttf"],["nucleo-icons.80e133d0.woff","assets/fonts/nucleo-icons.woff"],["nucleo-icons.482b759e.woff2","assets/fonts/nucleo-icons.woff2"],"js.fd6fcb87.css","assets/fonts/nucleo-icons.eot"],"./../fonts/nucleo-icons.woff2":[["js.fd6fcb87.js","assets/js/index.js"],"js.fd6fcb87.map",["nucleo-icons.361339e6.eot","assets/fonts/nucleo-icons.eot"],["nucleo-icons.8dda236c.ttf","assets/fonts/nucleo-icons.ttf"],["nucleo-icons.80e133d0.woff","assets/fonts/nucleo-icons.woff"],["nucleo-icons.482b759e.woff2","assets/fonts/nucleo-icons.woff2"],"js.fd6fcb87.css","assets/fonts/nucleo-icons.woff2"],"./../fonts/nucleo-icons.woff":[["js.fd6fcb87.js","assets/js/index.js"],"js.fd6fcb87.map",["nucleo-icons.361339e6.eot","assets/fonts/nucleo-icons.eot"],["nucleo-icons.8dda236c.ttf","assets/fonts/nucleo-icons.ttf"],["nucleo-icons.80e133d0.woff","assets/fonts/nucleo-icons.woff"],["nucleo-icons.482b759e.woff2","assets/fonts/nucleo-icons.woff2"],"js.fd6fcb87.css","assets/fonts/nucleo-icons.woff"],"./../fonts/nucleo-icons.ttf":[["js.fd6fcb87.js","assets/js/index.js"],"js.fd6fcb87.map",["nucleo-icons.361339e6.eot","assets/fonts/nucleo-icons.eot"],["nucleo-icons.8dda236c.ttf","assets/fonts/nucleo-icons.ttf"],["nucleo-icons.80e133d0.woff","assets/fonts/nucleo-icons.woff"],["nucleo-icons.482b759e.woff2","assets/fonts/nucleo-icons.woff2"],"js.fd6fcb87.css","assets/fonts/nucleo-icons.ttf"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"assets/js/core/popper.min.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -49223,7 +49297,9 @@ function debounce(func, wait, immediate) {
 
 $(document).ready(function () {
   //  Activate the Tooltips
-  // $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
+  if ($('[data-toggle="tooltip"], [rel="tooltip"]').length > 0) {
+    $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
+  }
 
   // Activate Popovers and set color for popovers
   $('[data-toggle="popover"]').each(function () {
@@ -51432,6 +51508,20 @@ var demo = {
 
 module.exports = demo;
 },{}],"assets/js/index.js":[function(require,module,exports) {
+'use strict';
+
+require('../fonts/nucleo-icons.eot');
+
+require('../fonts/nucleo-icons.ttf');
+
+require('../fonts/nucleo-icons.woff');
+
+require('../fonts/nucleo-icons.woff2');
+
+// import fonts from '../../fonts/*';
+//console.log('fonts', fonts);
+require('../css/nucleo-outline.css');
+
 require('./core/popper.min');
 require('./core/bootstrap.min');
 require('./plugins/moment.min');
@@ -51480,7 +51570,7 @@ $(document).ready(function () {
     $('#last-name-span').addClass('active-span');
   });
 });
-},{"./core/popper.min":"assets/js/core/popper.min.js","./core/bootstrap.min":"assets/js/core/bootstrap.min.js","./plugins/moment.min":"assets/js/plugins/moment.min.js","./plugins/bootstrap-switch.js":"assets/js/plugins/bootstrap-switch.js","./plugins/jquery.validate.min":"assets/js/plugins/jquery.validate.min.js","./plugins/jquery.bootstrap-wizard":"assets/js/plugins/jquery.bootstrap-wizard.js","./plugins/bootstrap-datetimepicker":"assets/js/plugins/bootstrap-datetimepicker.js","./plugins/jquery.dataTables.min":"assets/js/plugins/jquery.dataTables.min.js","./plugins/bootstrap-tagsinput":"assets/js/plugins/bootstrap-tagsinput.js","./plugins/jasny-bootstrap.min":"assets/js/plugins/jasny-bootstrap.min.js","./plugins/jquery-jvectormap":"assets/js/plugins/jquery-jvectormap.js","./plugins/nouislider.min":"assets/js/plugins/nouislider.min.js","./plugins/chartjs.min":"assets/js/plugins/chartjs.min.js","./plugins/bootstrap-notify":"assets/js/plugins/bootstrap-notify.js","./paper-dashboard.js":"assets/js/paper-dashboard.js","./demo":"assets/js/demo.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../fonts/nucleo-icons.eot":"assets/fonts/nucleo-icons.eot","../fonts/nucleo-icons.ttf":"assets/fonts/nucleo-icons.ttf","../fonts/nucleo-icons.woff":"assets/fonts/nucleo-icons.woff","../fonts/nucleo-icons.woff2":"assets/fonts/nucleo-icons.woff2","../css/nucleo-outline.css":"assets/css/nucleo-outline.css","./core/popper.min":"assets/js/core/popper.min.js","./core/bootstrap.min":"assets/js/core/bootstrap.min.js","./plugins/moment.min":"assets/js/plugins/moment.min.js","./plugins/bootstrap-switch.js":"assets/js/plugins/bootstrap-switch.js","./plugins/jquery.validate.min":"assets/js/plugins/jquery.validate.min.js","./plugins/jquery.bootstrap-wizard":"assets/js/plugins/jquery.bootstrap-wizard.js","./plugins/bootstrap-datetimepicker":"assets/js/plugins/bootstrap-datetimepicker.js","./plugins/jquery.dataTables.min":"assets/js/plugins/jquery.dataTables.min.js","./plugins/bootstrap-tagsinput":"assets/js/plugins/bootstrap-tagsinput.js","./plugins/jasny-bootstrap.min":"assets/js/plugins/jasny-bootstrap.min.js","./plugins/jquery-jvectormap":"assets/js/plugins/jquery-jvectormap.js","./plugins/nouislider.min":"assets/js/plugins/nouislider.min.js","./plugins/chartjs.min":"assets/js/plugins/chartjs.min.js","./plugins/bootstrap-notify":"assets/js/plugins/bootstrap-notify.js","./paper-dashboard.js":"assets/js/paper-dashboard.js","./demo":"assets/js/demo.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -51509,7 +51599,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53502' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58857' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

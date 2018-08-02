@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dc0282-b82e-42c5-84a9-c5f6e264c369" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/nucleo-outline.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss" />
+      <change beforePath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" afterPath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" afterPath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" afterPath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" afterPath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" afterPath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" afterPath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" afterPath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" afterPath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" afterPath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" />
+      <change beforePath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" afterPath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/js/core/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/demo.js" afterPath="$PROJECT_DIR$/assets/js/demo.js" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" afterPath="$PROJECT_DIR$/assets/js/index.js" />
       <change beforePath="$PROJECT_DIR$/assets/js/paper-dashboard.js" afterPath="$PROJECT_DIR$/assets/js/paper-dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/bootstrap-selectpicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/sweetalert2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/paper-dashboard.scss" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard.scss" />
       <change beforePath="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" afterPath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" />
+      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" afterPath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" />
+      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.js" afterPath="$PROJECT_DIR$/dist/grid.e41190f8.js" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.js" afterPath="$PROJECT_DIR$/dist/js.fd6fcb87.js" />
+      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.map" afterPath="$PROJECT_DIR$/dist/js.fd6fcb87.map" />
+      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" afterPath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" />
+      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" afterPath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" />
+      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.js" afterPath="$PROJECT_DIR$/dist/shadows.01a03458.js" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" afterPath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" afterPath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,31 +48,29 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="1015" column="44" lean-forward="false" selection-start-line="1015" selection-start-column="44" selection-end-line="1015" selection-end-column="44" />
+            <state relative-caret-position="165">
+              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/index.js">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="554">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="223" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-switch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/plugins/bootstrap-switch.js">
+      <file leaf-file-name="shadows.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/shadows.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="28" column="101" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="101" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +78,8 @@
       <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="198" column="4" lean-forward="false" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+            <state relative-caret-position="292">
+              <caret line="1473" column="27" lean-forward="false" selection-start-line="1473" selection-start-column="26" selection-end-line="1473" selection-end-column="27" />
               <folding>
                 <marker date="1533164929000" expanded="true" signature="777:818" ph="..." />
               </folding>
@@ -69,44 +87,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popper.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/core/popper.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="paper-dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/paper-dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="184">
+              <caret line="83" column="33" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="33" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1533164461000" expanded="true" signature="6294:6335" ph="..." />
+                <marker date="1533167317000" expanded="true" signature="6363:6404" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nucleo-outline.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="293" />
+            <state relative-caret-position="441">
+              <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#69#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="_bg.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="15">
+              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="100" column="46" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paper-dashboard.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -116,37 +156,45 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Input</find>
-      <find>Dropdown &amp; Dropup</find>
-      <find>c</find>
-      <find>card&quot;</find>
-      <find>nucleo</find>
-      <find>././</find>
-      <find>../</find>
-      <find>assets/</find>
-      <find>js/</find>
-      <find>slider</find>
-      <find>noUiSlider</find>
-      <find>togg</find>
-      <find>toggle</find>
-      <find>bootstrapSwitch</find>
       <find>Toggle Button</find>
       <find>bootstrap-switch</find>
       <find>swith</find>
       <find>switch</find>
-      <find>tooltip</find>
       <find>paper-dash</find>
       <find>swal</find>
-      <find>selectpicker</find>
-      <find>select</find>
+      <find>assets/</find>
+      <find>$nc-font-path</find>
+      <find>./fonts/</find>
+      <find>../../fonts</find>
       <find>demo.showSwal</find>
+      <find>../fonts/</find>
+      <find>c</find>
+      <find>caret</find>
+      <find>single opt</find>
+      <find>bootstrap-select</find>
+      <find>tooltip</find>
+      <find>select-picker</find>
+      <find>dropdown</find>
+      <find>b</find>
+      <find>selectpicker</find>
+      <find>./</find>
+      <find>span</find>
+      <find>selec</find>
+      <find>nuc</find>
+      <find>$default</find>
+      <find>$info-color</find>
+      <find>badges</find>
+      <find>select</find>
+      <find>sha</find>
     </findStrings>
     <replaceStrings>
       <replace>card z-depth-1&quot;</replace>
       <replace>././</replace>
       <replace>assets/</replace>
       <replace>./assets/js/</replace>
+      <replace>../../</replace>
       <replace>./</replace>
+      <replace>../fonts/</replace>
       <replace>swal</replace>
     </replaceStrings>
   </component>
@@ -163,11 +211,15 @@
         <option value="$PROJECT_DIR$/css/shadows.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" />
-        <option value="$PROJECT_DIR$/assets/js/paper-dashboard.js" />
         <option value="$PROJECT_DIR$/assets/js/demo.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" />
+        <option value="$PROJECT_DIR$/assets/css/nucleo-outline.css" />
         <option value="$PROJECT_DIR$/assets/js/index.js" />
+        <option value="$PROJECT_DIR$/assets/js/paper-dashboard.js" />
+        <option value="$PROJECT_DIR$/assets/scss/paper-dashboard.scss" />
+        <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss" />
       </list>
     </option>
   </component>
@@ -217,6 +269,18 @@
               <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
               <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,13 +289,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7808000" />
+    <option name="totallyTimeSpent" value="10777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -310,7 +367,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1136131" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185261" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -450,22 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4094">
-          <caret line="326" column="0" lean-forward="false" selection-start-line="326" selection-start-column="0" selection-end-line="329" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -485,9 +526,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="254" column="14" lean-forward="false" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,6 +549,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -559,37 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/shadows.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/paper-dashboard.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9540">
-          <caret line="41" column="13519" lean-forward="false" selection-start-line="41" selection-start-column="13513" selection-end-line="41" selection-end-column="13519" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="293" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -602,38 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/core/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/plugins/bootstrap-switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="28" column="101" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="101" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/paper-dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1533164461000" expanded="true" signature="6294:6335" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="198" column="4" lean-forward="false" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
-          <folding>
-            <marker date="1533164929000" expanded="true" signature="777:818" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/core/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7938">
@@ -663,18 +631,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/plugins/bootstrap-switch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="1015" column="44" lean-forward="false" selection-start-line="1015" selection-start-column="44" selection-end-line="1015" selection-end-column="44" />
+        <state relative-caret-position="383">
+          <caret line="28" column="101" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/core/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/paper-dashboard.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8647">
+          <caret line="41" column="13519" lean-forward="false" selection-start-line="41" selection-start-column="13513" selection-end-line="41" selection-end-column="13519" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="1473" column="27" lean-forward="false" selection-start-line="1473" selection-start-column="26" selection-end-line="1473" selection-end-column="27" />
+          <folding>
+            <marker date="1533164929000" expanded="true" signature="777:818" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/paper-dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="83" column="33" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <marker date="1533167317000" expanded="true" signature="6363:6404" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/nucleo-outline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/plugins/_plugin-bootstrap-select.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="271" column="11" lean-forward="false" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="441">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#69#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_badges.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="100" column="46" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="223" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/shadows.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
           <folding />
         </state>
       </provider>

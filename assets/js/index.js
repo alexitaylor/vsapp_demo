@@ -1,3 +1,11 @@
+// import fonts from '../../fonts/*';
+//console.log('fonts', fonts);
+import '../fonts/nucleo-icons.eot';
+import '../fonts/nucleo-icons.ttf';
+import '../fonts/nucleo-icons.woff';
+import '../fonts/nucleo-icons.woff2';
+require('../css/nucleo-outline.css');
+
 require('./core/popper.min');
 require('./core/bootstrap.min');
 require('./plugins/moment.min');

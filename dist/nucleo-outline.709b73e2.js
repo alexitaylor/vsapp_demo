@@ -164,12 +164,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel/src/builtins/bundle-url.js"}],"assets/css/bootstrap.min.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel/src/builtins/bundle-url.js"}],"assets/css/nucleo-outline.css":[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/nucleo-icons.eot":[["nucleo-icons.361339e6.eot","assets/fonts/nucleo-icons.eot"],"assets/fonts/nucleo-icons.eot"],"./../fonts/nucleo-icons.woff2":[["nucleo-icons.482b759e.woff2","assets/fonts/nucleo-icons.woff2"],"assets/fonts/nucleo-icons.woff2"],"./../fonts/nucleo-icons.woff":[["nucleo-icons.80e133d0.woff","assets/fonts/nucleo-icons.woff"],"assets/fonts/nucleo-icons.woff"],"./../fonts/nucleo-icons.ttf":[["nucleo-icons.8dda236c.ttf","assets/fonts/nucleo-icons.ttf"],"assets/fonts/nucleo-icons.ttf"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58857' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51218' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

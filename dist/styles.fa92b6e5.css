@@ -1,27 +1,3 @@
-.default-bg {
-    background: #66615b;
-}
-
-.primary-bg {
-    background: #51cbce;
-}
-
-.info-bg {
-    background: #51bcda;
-}
-
-.success-bg {
-    background: #6bd098;
-}
-
-.warning-bg {
-    background: #fbc658;
-}
-
-.danger-bg {
-    background: #ef8157;
-}
-
 .color-span-text {
     font-size: 1.5rem;
     color: white;
@@ -136,116 +112,116 @@
     outline: none;
 }
 
-.hero-radio-checkbox-form {
+/*.hero-radio-checkbox-form {*/
 
-    label.btn {
-        display: flex !important;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-    }
+    /*label.btn {*/
+        /*display: flex !important;*/
+        /*flex-direction: row;*/
+        /*align-items: center;*/
+        /*justify-content: flex-start;*/
+    /*}*/
 
-    label.btn span {
-        font-size: 3em;
-        padding-left: 15px;
-    }
+    /*label.btn span {*/
+        /*font-size: 3em;*/
+        /*padding-left: 15px;*/
+    /*}*/
 
-    label input[type="radio"] ~ svg.fa-circle{
-        color: #495057;
-        display: inline;
-    }
-    label input[type="radio"] ~ svg.fa-check-circle{
-        display: none;
-    }
-    label input[type="radio"]:checked ~ svg.fa-circle{
-        display: none;
-    }
-    label input[type="radio"]:checked ~ svg.fa-check-circle{
-        color: #7AA3CC;
-        display: inline;
-    }
-    label:hover input[type="radio"] ~ svg.fa {
-        color: #7AA3CC;
-    }
+    /*label input[type="radio"] ~ svg.fa-circle{*/
+        /*color: #495057;*/
+        /*display: inline;*/
+    /*}*/
+    /*label input[type="radio"] ~ svg.fa-check-circle{*/
+        /*display: none;*/
+    /*}*/
+    /*label input[type="radio"]:checked ~ svg.fa-circle{*/
+        /*display: none;*/
+    /*}*/
+    /*label input[type="radio"]:checked ~ svg.fa-check-circle{*/
+        /*color: #7AA3CC;*/
+        /*display: inline;*/
+    /*}*/
+    /*label:hover input[type="radio"] ~ svg.fa {*/
+        /*color: #7AA3CC;*/
+    /*}*/
 
-    label input[type="checkbox"] ~ svg.fa-square{
-        color: #495057;
-        display: inline;
-    }
-    label input[type="checkbox"] ~ svg.fa-check-square{
-        display: none;
-    }
-    label input[type="checkbox"]:checked ~ svg.fa-square{
-        display: none;
-    }
-    label input[type="checkbox"]:checked ~ svg.fa-check-square{
-        color: #7AA3CC;
-        display: inline;
-    }
-    label:hover input[type="checkbox"] ~ svg.fa {
-        color: #7AA3CC;
-    }
+    /*label input[type="checkbox"] ~ svg.fa-square{*/
+        /*color: #495057;*/
+        /*display: inline;*/
+    /*}*/
+    /*label input[type="checkbox"] ~ svg.fa-check-square{*/
+        /*display: none;*/
+    /*}*/
+    /*label input[type="checkbox"]:checked ~ svg.fa-square{*/
+        /*display: none;*/
+    /*}*/
+    /*label input[type="checkbox"]:checked ~ svg.fa-check-square{*/
+        /*color: #7AA3CC;*/
+        /*display: inline;*/
+    /*}*/
+    /*label:hover input[type="checkbox"] ~ svg.fa {*/
+        /*color: #7AA3CC;*/
+    /*}*/
 
-    div[data-toggle="buttons"] label.active{
-        color: #7AA3CC;
-    }
+    /*div[data-toggle="buttons"] label.active{*/
+        /*color: #7AA3CC;*/
+    /*}*/
 
-    div[data-toggle="buttons"] label {
-        display: inline-block;
-        padding: 6px 12px;
-        margin-bottom: 0;
-        font-size: 14px;
-        font-weight: normal;
-        line-height: 2em;
-        text-align: left;
-        white-space: nowrap;
-        vertical-align: top;
-        cursor: pointer;
-        border: 0px solid #495057;
-        border-radius: 3px;
-        color: #495057;
-        user-select: none;
-    }
+    /*div[data-toggle="buttons"] label {*/
+        /*display: inline-block;*/
+        /*padding: 6px 12px;*/
+        /*margin-bottom: 0;*/
+        /*font-size: 14px;*/
+        /*font-weight: normal;*/
+        /*line-height: 2em;*/
+        /*text-align: left;*/
+        /*white-space: nowrap;*/
+        /*vertical-align: top;*/
+        /*cursor: pointer;*/
+        /*border: 0px solid #495057;*/
+        /*border-radius: 3px;*/
+        /*color: #495057;*/
+        /*user-select: none;*/
+    /*}*/
 
-    div[data-toggle="buttons"] label:hover {
-        color: #7AA3CC;
-    }
+    /*div[data-toggle="buttons"] label:hover {*/
+        /*color: #7AA3CC;*/
+    /*}*/
 
-    div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
+    /*div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {*/
+        /*-webkit-box-shadow: none;*/
+        /*box-shadow: none;*/
+    /*}*/
 
-    input[type="radio"]:checked {
-        visibility:hidden;
-    }
+    /*input[type="radio"]:checked {*/
+        /*visibility:hidden;*/
+    /*}*/
 
-    input[type="radio"] {
-        visibility:hidden;
-    }
+    /*input[type="radio"] {*/
+        /*visibility:hidden;*/
+    /*}*/
 
-    input[type="checkbox"]:checked {
-        visibility:hidden;
-    }
+    /*input[type="checkbox"]:checked {*/
+        /*visibility:hidden;*/
+    /*}*/
 
-    input[type="checkbox"] {
-        visibility:hidden;
-    }
+    /*input[type="checkbox"] {*/
+        /*visibility:hidden;*/
+    /*}*/
 
-    .active {
-        color: #7AA3CC;
-    }
+    /*.active {*/
+        /*color: #7AA3CC;*/
+    /*}*/
 
-    .btn {
-        background-color: transparent;
-    }
-    .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show > .btn.dropdown-toggle, .show > .btn.dropdown-toggle:focus, .show > .btn.dropdown-toggle:hover, .navbar .navbar-nav > a.btn:hover, .navbar .navbar-nav > a.btn:focus, .navbar .navbar-nav > a.btn:active, .navbar .navbar-nav > a.btn.active, .navbar .navbar-nav > a.btn:active:focus, .navbar .navbar-nav > a.btn:active:hover, .navbar .navbar-nav > a.btn.active:focus, .navbar .navbar-nav > a.btn.active:hover, .show > .navbar .navbar-nav > a.btn.dropdown-toggle, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:focus, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-        background-color: transparent !important;
-        color: #7AA3CC !important;
-        box-shadow: none !important;
-        outline: none !important;
-    }
-}
+    /*.btn {*/
+        /*background-color: transparent;*/
+    /*}*/
+    /*.btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show > .btn.dropdown-toggle, .show > .btn.dropdown-toggle:focus, .show > .btn.dropdown-toggle:hover, .navbar .navbar-nav > a.btn:hover, .navbar .navbar-nav > a.btn:focus, .navbar .navbar-nav > a.btn:active, .navbar .navbar-nav > a.btn.active, .navbar .navbar-nav > a.btn:active:focus, .navbar .navbar-nav > a.btn:active:hover, .navbar .navbar-nav > a.btn.active:focus, .navbar .navbar-nav > a.btn.active:hover, .show > .navbar .navbar-nav > a.btn.dropdown-toggle, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:focus, .show > .navbar .navbar-nav > a.btn.dropdown-toggle:hover {*/
+        /*background-color: transparent !important;*/
+        /*color: #7AA3CC !important;*/
+        /*box-shadow: none !important;*/
+        /*outline: none !important;*/
+    /*}*/
+/*}*/
 
 .at-label-lg {
     font-size: 2rem !important;
@@ -289,4 +265,8 @@
   position: absolute;
   width: 260px;
   text-transform: none;
+}
+
+.bootstrap-select .bs-caret {
+    display: none;
 }
