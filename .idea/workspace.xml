@@ -2,36 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dc0282-b82e-42c5-84a9-c5f6e264c369" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/nucleo-outline.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss" />
-      <change beforePath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" afterPath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" afterPath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" afterPath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" afterPath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" afterPath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" afterPath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" afterPath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" afterPath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" afterPath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" />
-      <change beforePath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" afterPath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.cache/138dcd732bf5d0f15d63094d1bb05ba3.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/21c0e983574208a232d93bb6108451e1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/298a87858831b461b93f51fc43946251.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/2c01da035d7e43c690961c47f460ceae.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/36887ca8ad108e8958e478e8bf62cea4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/39ced2057eeb06315e2c99282adbdcf4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/3e2d5e54626eccacc14695c9f0e145b1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/3ef3df3f772dbb6abc8b54b62015db6b.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/48431d3765cac5a6bc5c572f367edbf5.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/57d3786350385d7db2260cc121e543d6.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/64f3a8b9d0b1c0dac5b4e99b50a71b3d.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/65804660c2e777e9d87192cb24caae4f.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/676a1b7519bd3d1a8bf06b8d3dcb9e91.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/6a2dafc5d6995e855f0947720d4e0740.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/702651a43a21bb4128860e37f2abe6b8.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/7284b58bbe2199ddc116ec931eb793c4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/75d9b274da4ed717cc50e2e92217f03e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/77d07bd5e846a6b538f2f03a8dcfb031.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/7aabd47270897cbeb0049bf2609465e6.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/83e9f144dd4bbf9be64fdc1449f68f21.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/8797ada5344c02eacb074c1fbc9a6ba9.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/87add8d393bafcde0fa473b0b514d5e6.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/88b06d36f4f179a848e06ee2098d7784.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/96d7560a1793104c088dd9d93df371de.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/a0c428a6d071eb0bce0d6dfe293b7f16.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/a2b9d1cda4de705223574f51f15e8e11.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/a766d41071ece2f3de0d9da6ef3a1927.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/b83e40e89362c7f98671a43f1ee4dd2a.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/bd5c6c206f699f75a418d69013b5a6da.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/c28c4fa6a05425a6a20c6cd9f3d7136c.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/c2f8acf32e0e5302e07555f978b25de9.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/c949cd2ba43009df5ee8953d1b7189ca.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/d84ee4a82a0ff786400f848e269bce28.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/d87cb7d1a56953c17d143e4a7934c41d.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/da52e6c61e7b9fd120711b8352dca5ef.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/dd62eb8a84b6d70226ae060fc8b32d00.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/de25f3c9d67ca08cdbb64b896af79377.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/de9986be933b38a7d1779882c3b327b0.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/e1cee12fd8341e47f59db1434307d830.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/e314be7a220fe6dcb23126b510399813.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/e786a927f89754dab41d20e6a77b45b7.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/ea23033950518339153acd8f4dfcc89a.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/ea318600ba9d8bafccdc3314646eb5c1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/f7e4eda2525bbcbb33016aabd4c7ef13.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.cache/fad99adfdaa3290033ca2b19abf3e550.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/assets/js/index.js" afterPath="$PROJECT_DIR$/assets/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/assets/js/paper-dashboard.js" afterPath="$PROJECT_DIR$/assets/js/paper-dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/paper-dashboard.scss" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" afterPath="$PROJECT_DIR$/assets/scss/paper-dashboard/_nucleo-outline.scss" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" afterPath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" />
-      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" afterPath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" />
-      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.js" afterPath="$PROJECT_DIR$/dist/grid.e41190f8.js" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.js" afterPath="$PROJECT_DIR$/dist/js.fd6fcb87.js" />
-      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.map" afterPath="$PROJECT_DIR$/dist/js.fd6fcb87.map" />
-      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" afterPath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" />
-      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" afterPath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" />
-      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.js" afterPath="$PROJECT_DIR$/dist/shadows.01a03458.js" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" afterPath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" afterPath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.a80735d9.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/dob-selector.cf3beadb.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/grid.e41190f8.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js.fd6fcb87.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.361339e6.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.482b759e.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.80e133d0.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-icons.8dda236c.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/nucleo-outline.709b73e2.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/paper-dashboard.3a1f5777.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/shadows.01a03458.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.fa92b6e5.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,18 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="1473" column="27" lean-forward="false" selection-start-line="1473" selection-start-column="26" selection-end-line="1473" selection-end-column="27" />
-              <folding>
-                <marker date="1533164929000" expanded="true" signature="777:818" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="paper-dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/paper-dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,11 +156,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_bg.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_bg.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -220,6 +264,7 @@
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/paper-dashboard/_bg.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -259,49 +304,6 @@
             <path>
               <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
               <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VSAPP_DEMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VSAPP_DEMO" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="paper-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +355,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10777000" />
+    <option name="totallyTimeSpent" value="11042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -362,12 +364,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2965642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.185261" sideWeight="0.5045208" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185261" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185261" sideWeight="0.4954792" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -778,6 +780,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
